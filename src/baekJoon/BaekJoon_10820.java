@@ -1,4 +1,4 @@
-package baekJoon;
+package BaekJoon;
 
 import java.io.IOException;
 import java.util.Scanner;

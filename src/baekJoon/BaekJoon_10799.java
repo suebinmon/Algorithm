@@ -1,4 +1,4 @@
-package baekJoon;
+package BaekJoon;
 
 import java.util.Scanner;
 import java.util.Stack;
@@ -27,7 +27,7 @@ public class BaekJoon_10799 {
 			}
 		} catch(Exception e) {
 		//	e.printStackTrace();
-			System.out.println("( ºÎÅÍ ÀÔ·ÂÇØ ÁÖ¼¼¿ä.");
+			System.out.println("( ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½.");
 		}
 		return cnt;
 	}
