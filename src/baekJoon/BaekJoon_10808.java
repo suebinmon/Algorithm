@@ -8,11 +8,11 @@ public class BaekJoon_10808 {
 		
 		int[] counts = new int['z' - 'a' + 1];
 		char[] inputs = sc.next().toCharArray();
-		
+
 		for(int i=0; i<inputs.length; i++) {
 			counts[inputs[i] - 'a']++;
 		}
-		
+
 		for(int i=0; i<counts.length; i++) {
 			System.out.print(counts[i] + " ");
 		}

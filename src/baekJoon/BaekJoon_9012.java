@@ -7,7 +7,7 @@ public class BaekJoon_9012 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		VPS vps = new VPS();
-		
+
 		int numOfOperators = sc.nextInt();
 		String[] operators = new String[numOfOperators];
 		sc.nextLine();
@@ -28,10 +28,10 @@ public class BaekJoon_9012 {
 }
 
 class VPS{
-	
+
 	protected boolean solve(String input) {
 		Stack<Character> stack = new Stack<Character>();
-		
+
 		char[] insertArray = input.toCharArray();
 		for(int i=0; i<insertArray.length; i++) {
 			if(insertArray[i]=='(') {
@@ -39,8 +39,8 @@ class VPS{
 			} else {
 				if(stack.empty())
 					return false;
-				else 
-					stack.pop();		
+				else
+					stack.pop();
 			}
 		}
 		return stack.empty();
